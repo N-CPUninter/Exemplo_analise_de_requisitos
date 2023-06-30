@@ -1,0 +1,35 @@
+@startuml
+
+class Servidor {
+  - dadosFuncionarios: list
+  - vozesCadastradas: list
+  - funcionariosAtivos: int
+  - autorizacaoEspecial: str
+  + autenticacao(funcionario): bool
+  + acessoAutorizado(): bool
+  + cadastrarFuncionario(nomeFuncionario, idade, departamento): void
+  + cadastrarVoz(funcionario): void
+}
+
+class IA {
+  - reconhecerVoz: bool
+  - autenticarUsuario: str
+  + analisarVoz(voz, servidor): (bool, Funcionario)
+}
+
+class Porta {
+  - idPorta: int
+  + autorizacaoAcesso(servidor): void
+}
+
+class Funcionario {
+  - nomeFuncionario: str
+  - idade: int
+  - departamento: str
+}
+
+Servidor "1" -- "0..*" Funcionario : possui
+IA "1" -- "1" Servidor : utiliza
+Porta "0..*" -- "1" Servidor : depende
+
+@enduml
