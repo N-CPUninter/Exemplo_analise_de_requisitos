@@ -1,0 +1,26 @@
+@startuml
+
+left to right direction
+
+actor Funcionário as f
+actor IA as i
+actor Porta as p
+
+rectangle "Sistema de Controle de Acesso" as Sistema {
+  usecase "Cadastrar Funcionário" as UC1
+  usecase "Analisar Voz" as UC2
+  usecase "Autorizar Acesso" as UC3
+  usecase "Cadastrar voz" as UC4
+  usecase "Abrir porta" as UC5
+
+  f -- UC1
+  f -- UC4
+  f -- UC5
+  i -- UC2
+  p -- UC3
+
+  UC5 ..> UC2
+  UC2 ..> UC3
+}
+
+@enduml
