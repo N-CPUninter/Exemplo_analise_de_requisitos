@@ -17,7 +17,7 @@
 
 <!-- Escudos de licença e contador de contribuidores -->
 <p align="center">
-  <a href="https://github.com/guipatriota/clone-discord/graphs/contributors">
+  <a href="https://github.com/N-CPUninter/Exemplo_analise_de_requisitos/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/N-CPUninter/Exemplo_analise_de_requisitos?color=%237159c1&logoColor=%237159c1&style=flat" alt="Contributors">
   </a>
   <a href="https://opensource.org/license/gpl-3-0">
