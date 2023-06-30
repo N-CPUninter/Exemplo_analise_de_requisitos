@@ -7,13 +7,13 @@
 <div align="center"><h1>Exemplo de Análise de Requisitos</h1><p><b>Exemplo de criação diagramas e código com base em requisitos de sistema de Controle de Acesso fictício</b></p></div>
 
 <!-- Ícones ou links das tecnologias usadas -->
-<div align="center">
+<p align="center">
   <a href="https://www.uml.org/" title="UML"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/UML_logo.svg" alt="UML" height="21px"></a>
   +
   <a href="https://www.python.org/" title="Python"><img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="21px" height="21px"></a>
   +
   <a href="https://plantuml.com/" title="PlantUML">PlantUML</a>
-</div>
+</p>
 
 <!-- Escudos de licença e contador de contribuidores -->
 <p align="center">
